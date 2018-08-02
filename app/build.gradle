@@ -25,4 +25,12 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    compileOnly files('/Users/sahasan/Downloads/GITHUB Projects/AndroidMarketApi/app/libs/AndroidMarketApi-20151023.jar')
+}
+
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
 }
